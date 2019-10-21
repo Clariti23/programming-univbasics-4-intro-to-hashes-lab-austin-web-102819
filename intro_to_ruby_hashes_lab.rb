@@ -9,15 +9,17 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  { :name => "Grace Hopper"}
+  {:name => "Grace Hopper"}
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  {:id => 007}
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
+  hash[key] = value
 end
 
 def read_from_hash(hash, key)
